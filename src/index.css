@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 7%;
+    --foreground: 0 0% 100%;
+    --card: 240 4% 17%;
+    --card-foreground: 0 0% 100%;
+    --popover: 240 4% 14%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 43 100% 50%;
+    --primary-foreground: 0 0% 7%;
+    --secondary: 240 4% 12%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 240 4% 14%;
+    --muted-foreground: 0 0% 63%;
+    --accent: 151 100% 45%;
+    --accent-foreground: 0 0% 7%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 240 4% 20%;
+    --input: 240 4% 20%;
+    --ring: 43 100% 50%;
+    --radius: 0.25rem;
+    --font-heading: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+    --font-body: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-display: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading tracking-tight;
+  }
+}
+
+@layer utilities {
+  .font-mono-tech {
+    font-family: var(--font-mono);
+  }
+
+  /* PCB trace grid background */
+  .pcb-grid {
+    background-image:
+      linear-gradient(rgba(255, 184, 0, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 184, 0, 0.04) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  .pcb-grid-fine {
+    background-image:
+      linear-gradient(rgba(0, 230, 118, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 230, 118, 0.05) 1px, transparent 1px);
+    background-size: 16px 16px;
+  }
+
+  /* Solder pulse animation on tap */
+  @keyframes solder-pulse {
+    0% { box-shadow: 0 0 0 0 rgba(255, 184, 0, 0.5); }
+    70% { box-shadow: 0 0 0 12px rgba(255, 184, 0, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(255, 184, 0, 0); }
+  }
+  .solder-pulse:active {
+    animation: solder-pulse 0.5s ease-out;
+  }
+
+  /* Trace line draw */
+  @keyframes trace-draw {
+    from { transform: scaleX(0); }
+    to { transform: scaleX(1); }
+  }
+  .trace-line {
+    transform-origin: left;
+    animation: trace-draw 0.8s ease-out forwards;
+  }
+
+  /* Blinking status LED */
+  @keyframes led-blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.35; }
+  }
+  .led-blink {
+    animation: led-blink 1.6s ease-in-out infinite;
+  }
+
+  /* Marquee for the trace ticker */
+  @keyframes ticker {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  .ticker-track {
+    animation: ticker 28s linear infinite;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar { display: none; }
+  .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+}

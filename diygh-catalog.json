@@ -1,0 +1,1166 @@
+[
+  {
+    "id": "diygh-starter-kit-v2",
+    "name": "DIYGH Starter Kit v2",
+    "sku": "DIY-KIT-002",
+    "price": 690,
+    "category": "Kits",
+    "short_description": "Everything a first-timer needs to build, wire, and program their first robot — tested in our own club projects.",
+    "description": "Our flagship kit, revised after two semesters of workshop feedback. Ships with an Uno-compatible board, the sensor set we actually use in teaching, motors, a chassis, and a printed 40-page guide written by students, for students. Every component is bench-tested before it goes in the bag.",
+    "specs": [
+      {
+        "label": "Level",
+        "value": "Beginner"
+      },
+      {
+        "label": "Projects",
+        "value": "12 guided builds"
+      },
+      {
+        "label": "Guide",
+        "value": "40 pages, printed"
+      },
+      {
+        "label": "Support",
+        "value": "WhatsApp, 7am–9pm"
+      }
+    ],
+    "image_url": "/images/products/starter-kit-contents.jpg",
+    "kit_contents": [
+      "Uno-compatible board + USB cable",
+      "Breadboard (830 point) + 65-piece jumper set",
+      "HC-SR04 ultrasonic sensor",
+      "DHT11 temperature & humidity sensor",
+      "PIR motion sensor",
+      "SG90 micro servo + L298N motor driver",
+      "TT geared motors + chassis wheels",
+      "Resistor kit + LED bundle",
+      "9V battery snap + AA holder",
+      "Printed starter guide v2"
+    ],
+    "stock_status": "In Stock",
+    "featured": true,
+    "rating": 4.9,
+    "created_date": "2026-09-24"
+  },
+  {
+    "id": "sg90-servo",
+    "name": "SG90 Micro Servo (9g)",
+    "sku": "DIY-MTR-011",
+    "price": 55,
+    "category": "Motors",
+    "short_description": "Tiny 180° servo for pan-tilt heads, grippers, and steering linkages.",
+    "description": "The workhorse micro servo. Plastic gears keep it light and cheap; fine for steering, pan-tilt cameras, and small grippers. Includes three horns and the screw pack.",
+    "specs": [
+      {
+        "label": "Torque",
+        "value": "1.8 kg·cm @ 4.8V"
+      },
+      {
+        "label": "Rotation",
+        "value": "180°"
+      },
+      {
+        "label": "Weight",
+        "value": "9 g"
+      },
+      {
+        "label": "Gears",
+        "value": "Plastic"
+      }
+    ],
+    "image_url": "/images/products/sg90-servo.jpg",
+    "stock_status": "In Stock",
+    "featured": true,
+    "rating": 4.5,
+    "created_date": "2026-09-23"
+  },
+  {
+    "id": "hc-sr04",
+    "name": "HC-SR04 Ultrasonic Sensor",
+    "sku": "DIY-SEN-001",
+    "price": 35,
+    "category": "Sensors",
+    "short_description": "Reliable 2–400 cm distance sensing for obstacle avoiders and level meters.",
+    "description": "Two-transducer ultrasonic rangefinder. One pulse in, one pulse out — the first sensor every robotics student should own. We bin-test accuracy before it hits the shelf.",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "2 – 400 cm"
+      },
+      {
+        "label": "Accuracy",
+        "value": "±3 mm"
+      },
+      {
+        "label": "Voltage",
+        "value": "5 V"
+      },
+      {
+        "label": "Angle",
+        "value": "15°"
+      }
+    ],
+    "image_url": "/images/products/hc-sr04-ultrasonic.jpg",
+    "stock_status": "In Stock",
+    "featured": false,
+    "rating": 4.8,
+    "created_date": "2026-09-21"
+  },
+  {
+    "id": "arduino-uno-r3",
+    "name": "Arduino Uno R3 Compatible",
+    "sku": "DIY-BRD-001",
+    "price": 165,
+    "category": "Boards",
+    "short_description": "The classic ATmega328P board every curriculum in Ghana starts with.",
+    "description": "Full-size Uno-compatible board with the CH340 USB-serial chip (drivers on the guide card). Handles every shield and tutorial aimed at the original Uno. Bench-tested with the standard Blink + Serial demo before shipping.",
+    "specs": [
+      {
+        "label": "MCU",
+        "value": "ATmega328P"
+      },
+      {
+        "label": "Voltage",
+        "value": "5 V"
+      },
+      {
+        "label": "Digital I/O",
+        "value": "14 (6 PWM)"
+      },
+      {
+        "label": "Flash",
+        "value": "32 KB"
+      },
+      {
+        "label": "Clock",
+        "value": "16 MHz"
+      }
+    ],
+    "image_url": "/images/products/arduino-uno-r3.jpg",
+    "images": [
+      "/images/products/arduino-uno-leds.jpg"
+    ],
+    "stock_status": "In Stock",
+    "featured": true,
+    "rating": 4.8,
+    "created_date": "2026-09-20"
+  },
+  {
+    "id": "mpu6050",
+    "name": "MPU-6050 Gyro / Accelerometer",
+    "sku": "DIY-SEN-005",
+    "price": 75,
+    "category": "Sensors",
+    "short_description": "Six-axis IMU for balance bots, self-leveling camera rigs, and gesture control.",
+    "description": "Combined 3-axis gyroscope and accelerometer with a hardware motion processor. Talks I²C, works at 3.3 V or 5 V with the onboard regulator, and ships with the header pins loose so you can choose straight or right-angle.",
+    "specs": [
+      {
+        "label": "Axes",
+        "value": "6 (gyro + accel)"
+      },
+      {
+        "label": "Interface",
+        "value": "I²C, 400 kHz"
+      },
+      {
+        "label": "Range",
+        "value": "±2000 °/s, ±16 g"
+      },
+      {
+        "label": "Voltage",
+        "value": "3.3 – 5 V"
+      }
+    ],
+    "image_url": "/images/products/mpu6050.jpg",
+    "stock_status": "In Stock",
+    "featured": true,
+    "rating": 4.7,
+    "created_date": "2026-09-19"
+  },
+  {
+    "id": "hc-05",
+    "name": "HC-05 Bluetooth Module",
+    "sku": "DIY-SEN-008",
+    "price": 90,
+    "category": "Components",
+    "short_description": "Classic Bluetooth serial bridge — wire your robot to a phone in ten minutes.",
+    "description": "Master/slave SPP module that presents a transparent UART over Bluetooth Classic. Pair it with any Android serial app or a laptop and drive your robot without touching a line of radio code.",
+    "specs": [
+      {
+        "label": "Protocol",
+        "value": "Bluetooth 2.0 SPP"
+      },
+      {
+        "label": "Voltage",
+        "value": "3.3 – 5 V"
+      },
+      {
+        "label": "Interface",
+        "value": "UART"
+      },
+      {
+        "label": "Range",
+        "value": "≈10 m"
+      }
+    ],
+    "image_url": "/images/products/hc-05-bluetooth-module.jpg",
+    "stock_status": "Low Stock",
+    "featured": false,
+    "rating": 4.5,
+    "created_date": "2026-09-16"
+  },
+  {
+    "id": "vl53l0x",
+    "name": "VL53L0X Laser Distance Sensor",
+    "sku": "DIY-SEN-006",
+    "price": 95,
+    "category": "Sensors",
+    "short_description": "Time-of-flight laser ranging — accurate where ultrasonics get confused.",
+    "description": "ST Time-of-Flight laser ranger. Measures 3–200 cm regardless of target colour or sound reflectivity, with a narrow 25° field — ideal for wall-following where HC-SR04 echos smear.",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "3 – 200 cm"
+      },
+      {
+        "label": "Accuracy",
+        "value": "±3%"
+      },
+      {
+        "label": "Interface",
+        "value": "I²C"
+      },
+      {
+        "label": "Voltage",
+        "value": "2.6 – 5.5 V"
+      }
+    ],
+    "image_url": "/images/products/vl53l0x-laser-ranging.jpg",
+    "images": [
+      "/images/products/long-range-laser-rangefinder.jpg"
+    ],
+    "stock_status": "Low Stock",
+    "featured": false,
+    "rating": 4.6,
+    "created_date": "2026-09-15"
+  },
+  {
+    "id": "dht11",
+    "name": "DHT11 Temperature & Humidity Sensor",
+    "sku": "DIY-SEN-002",
+    "price": 40,
+    "category": "Sensors",
+    "short_description": "Single-wire digital temp + humidity probe for weather stations and greenhouses.",
+    "description": "Calibrated capacitive humidity sensor with an 8-bit MCU on board, speaking a simple single-wire protocol. ±5 % RH / ±2 °C accuracy is plenty for classroom weather stations.",
+    "specs": [
+      {
+        "label": "Humidity",
+        "value": "20 – 80% ±5% RH"
+      },
+      {
+        "label": "Temp",
+        "value": "0 – 50 °C ±2 °C"
+      },
+      {
+        "label": "Interface",
+        "value": "Single-wire digital"
+      },
+      {
+        "label": "Voltage",
+        "value": "3.3 – 5 V"
+      }
+    ],
+    "image_url": "/images/products/dht11-sensor.jpg",
+    "stock_status": "In Stock",
+    "featured": false,
+    "rating": 4.4,
+    "created_date": "2026-09-12"
+  },
+  {
+    "id": "esp8266-nodemcu",
+    "name": "NodeMCU ESP8266",
+    "sku": "DIY-BRD-004",
+    "price": 95,
+    "category": "Boards",
+    "short_description": "Cheapest way onto Wi-Fi — a dollar of silicon that runs a web server.",
+    "description": "The ESP8266 board that started the IoT wave. Enough GPIO for a handful of sensors, onboard USB-serial, and Arduino/NodeMCU support. Our pick when a project only needs 2.4 GHz Wi-Fi.",
+    "specs": [
+      {
+        "label": "MCU",
+        "value": "ESP8266 @ 80 MHz"
+      },
+      {
+        "label": "Wireless",
+        "value": "Wi-Fi 2.4 GHz"
+      },
+      {
+        "label": "Flash",
+        "value": "4 MB"
+      },
+      {
+        "label": "GPIO",
+        "value": "11"
+      }
+    ],
+    "image_url": "/images/products/esp8266-nodemcu.jpg",
+    "stock_status": "In Stock",
+    "featured": false,
+    "rating": 4.5,
+    "created_date": "2026-09-10"
+  },
+  {
+    "id": "breadboard-830",
+    "name": "830-Point Breadboard",
+    "sku": "DIY-CMP-001",
+    "price": 45,
+    "category": "Components",
+    "short_description": "Full-size solderless prototyping board with power rails down both sides.",
+    "description": "ABS breadboard with 630 tie points in the main grid plus 100 on the power rails. Contacts grip standard 0.6 mm leads firmly and survive hundreds of rewires.",
+    "specs": [
+      {
+        "label": "Tie points",
+        "value": "830"
+      },
+      {
+        "label": "Rails",
+        "value": "2 pairs"
+      },
+      {
+        "label": "Pitch",
+        "value": "2.54 mm"
+      },
+      {
+        "label": "Size",
+        "value": "165 × 55 mm"
+      }
+    ],
+    "image_url": "/images/products/breadboard-830.jpg",
+    "stock_status": "In Stock",
+    "featured": false,
+    "rating": 4.6,
+    "created_date": "2026-09-09"
+  },
+  {
+    "id": "arduino-nano",
+    "name": "Arduino Nano Compatible",
+    "sku": "DIY-BRD-005",
+    "price": 110,
+    "category": "Boards",
+    "short_description": "Uno brain in a breadboard-friendly body — great for permanent prototypes.",
+    "description": "Same ATmega328P as the Uno, in a 18 × 45 mm package that straddles a breadboard. CH340 USB-serial on board. Our go-to when a build has to stay small and tidy.",
+    "specs": [
+      {
+        "label": "MCU",
+        "value": "ATmega328P"
+      },
+      {
+        "label": "Voltage",
+        "value": "5 V"
+      },
+      {
+        "label": "Digital I/O",
+        "value": "22 (6 PWM)"
+      },
+      {
+        "label": "Size",
+        "value": "18 × 45 mm"
+      }
+    ],
+    "image_url": "/images/products/arduino-nano.jpg",
+    "stock_status": "In Stock",
+    "featured": false,
+    "rating": 4.6,
+    "created_date": "2026-09-08"
+  },
+  {
+    "id": "jumper-wires",
+    "name": "Jumper Wire Set (65 pcs)",
+    "sku": "DIY-CMP-002",
+    "price": 30,
+    "category": "Components",
+    "short_description": "M-M, M-F, and F-F leads in three lengths — the set that never goes missing.",
+    "description": "Sixty-five pre-cut Dupont leads: 20 male-male, 20 male-female, 20 female-female, plus 5 extra-long M-M. Colour-coded and flexible enough to survive a semester of rewiring.",
+    "specs": [
+      {
+        "label": "Count",
+        "value": "65 pieces"
+      },
+      {
+        "label": "Types",
+        "value": "M-M / M-F / F-F"
+      },
+      {
+        "label": "Lengths",
+        "value": "10 / 15 / 20 cm"
+      },
+      {
+        "label": "Pitch",
+        "value": "2.54 mm"
+      }
+    ],
+    "image_url": "/images/products/jumper-wires.jpg",
+    "stock_status": "In Stock",
+    "featured": false,
+    "rating": 4.7,
+    "created_date": "2026-09-07"
+  },
+  {
+    "id": "robot-chassis",
+    "name": "Smart Robot Chassis Kit",
+    "sku": "DIY-KIT-004",
+    "price": 320,
+    "category": "Kits",
+    "short_description": "Two-layer aluminium chassis, wheels, and mounts — the frame for your own design.",
+    "description": "For builders who want to design their own bot but not cut their own metal. Laser-cut two-layer chassis with motor mounts, castor, battery tray, and standoff pack. Fits TT gearmotors and standard servo cut-outs.",
+    "specs": [
+      {
+        "label": "Material",
+        "value": "2 mm aluminium"
+      },
+      {
+        "label": "Layers",
+        "value": "2 + standoffs"
+      },
+      {
+        "label": "Motors",
+        "value": "TT gearmotor mounts"
+      },
+      {
+        "label": "Weight",
+        "value": "310 g"
+      }
+    ],
+    "kit_contents": [
+      "Upper + lower deck plates",
+      "Motor brackets (pair)",
+      "Castor wheel + mount",
+      "Battery tray",
+      "Standoff & screw pack"
+    ],
+    "image_url": "/images/products/robot-chassis-kit.jpg",
+    "stock_status": "In Stock",
+    "featured": false,
+    "rating": 4.5,
+    "created_date": "2026-09-06"
+  },
+  {
+    "id": "pir-hc-sr501",
+    "name": "PIR Motion Sensor HC-SR501",
+    "sku": "DIY-SEN-003",
+    "price": 45,
+    "category": "Sensors",
+    "short_description": "Passive infrared presence detection with adjustable sensitivity and delay.",
+    "description": "Pyroelectric motion sensor with a fresnel lens. Two potentiometers set sensitivity and hold time, and a jumper picks single or repeatable trigger. The classic guard/automation input.",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "3 – 7 m"
+      },
+      {
+        "label": "Angle",
+        "value": "≈120°"
+      },
+      {
+        "label": "Delay",
+        "value": "3 s – 5 min"
+      },
+      {
+        "label": "Voltage",
+        "value": "4.5 – 12 V"
+      }
+    ],
+    "image_url": "/images/products/pir-motion-sensor.jpg",
+    "stock_status": "In Stock",
+    "featured": false,
+    "rating": 4.5,
+    "created_date": "2026-09-05"
+  },
+  {
+    "id": "resistor-kit",
+    "name": "Resistor Kit 1/4W (600 pcs)",
+    "sku": "DIY-CMP-003",
+    "price": 40,
+    "category": "Components",
+    "short_description": "Thirty common values, 20 each, in a labelled box — no more guessing bands.",
+    "description": "Carbon-film 1/4 W resistors covering the values you actually use: 10 Ω to 1 MΩ. Twenty pieces of each of thirty values, sorted in a compartment box with a printed value chart.",
+    "specs": [
+      {
+        "label": "Count",
+        "value": "600 pieces"
+      },
+      {
+        "label": "Values",
+        "value": "30 common values"
+      },
+      {
+        "label": "Tolerance",
+        "value": "±5%"
+      },
+      {
+        "label": "Power",
+        "value": "1/4 W"
+      }
+    ],
+    "image_url": "/images/products/resistor-kit.jpg",
+    "stock_status": "In Stock",
+    "featured": false,
+    "rating": 4.8,
+    "created_date": "2026-09-04"
+  },
+  {
+    "id": "soldering-kit",
+    "name": "Soldering Iron Kit 60W",
+    "sku": "DIY-TLS-001",
+    "price": 210,
+    "category": "Tools",
+    "short_description": "Adjustable-temp iron, stand, sucker, and tips — everything except the solder.",
+    "description": "The kit we hand to every new member. 60 W iron with adjustable dial (200–450 °C), sponge stand, desoldering pump, tweezers, and five tips. Takes standard 900M-series replacements.",
+    "specs": [
+      {
+        "label": "Power",
+        "value": "60 W"
+      },
+      {
+        "label": "Range",
+        "value": "200 – 450 °C"
+      },
+      {
+        "label": "Tips",
+        "value": "5 included"
+      },
+      {
+        "label": "Voltage",
+        "value": "220 V"
+      }
+    ],
+    "image_url": "/images/products/soldering-kit.jpg",
+    "stock_status": "In Stock",
+    "featured": false,
+    "rating": 4.6,
+    "created_date": "2026-09-03"
+  },
+  {
+    "id": "multimeter",
+    "name": "Digital Multimeter (DMM)",
+    "sku": "DIY-TLS-002",
+    "price": 160,
+    "category": "Tools",
+    "short_description": "True-RMS meter for voltage, current, continuity, and component checks.",
+    "description": "A proper handheld DMM, not a toy. Backlit 4000-count display, auto-ranging, continuity buzzer, diode test, and a fused 10 A current input. Includes probes and a battery.",
+    "specs": [
+      {
+        "label": "Display",
+        "value": "4000 counts, backlit"
+      },
+      {
+        "label": "DC V",
+        "value": "400 mV – 1000 V"
+      },
+      {
+        "label": "Current",
+        "value": "µA / mA / 10 A"
+      },
+      {
+        "label": "Extras",
+        "value": "Continuity + diode"
+      }
+    ],
+    "image_url": "/images/products/digital-multimeter.jpg",
+    "stock_status": "In Stock",
+    "featured": false,
+    "rating": 4.7,
+    "created_date": "2026-09-02"
+  },
+  {
+    "id": "arduino-pro-mini",
+    "name": "Arduino Pro Mini Compatible",
+    "sku": "DIY-BRD-006",
+    "price": 65,
+    "category": "Boards",
+    "short_description": "Stripped-down Uno in a tiny DIP-friendly size — for builds that stay built.",
+    "description": "The Pro Mini keeps the ATmega328P heart of the Uno and drops everything you don't need. No USB port, so you flash it with an FTDI adapter — which also keeps the board small enough to disappear inside a project. Great for permanent installs and drones.",
+    "specs": [
+      {
+        "label": "MCU",
+        "value": "ATmega328P"
+      },
+      {
+        "label": "Voltage",
+        "value": "5 V @ 16 MHz"
+      },
+      {
+        "label": "Digital I/O",
+        "value": "14 (6 PWM)"
+      },
+      {
+        "label": "Size",
+        "value": "33 × 18 mm"
+      }
+    ],
+    "image_url": "/images/products/arduino-pro-mini.jpg",
+    "stock_status": "In Stock",
+    "featured": false,
+    "rating": 4.5,
+    "created_date": "2026-08-31"
+  },
+  {
+    "id": "mini-breadboard-400",
+    "name": "400-Point Mini Breadboard",
+    "sku": "DIY-CMP-004",
+    "price": 25,
+    "category": "Components",
+    "short_description": "Half-size solderless breadboard that fits in a pencil case.",
+    "description": "300 tie points in the main grid plus 100 on the power rails — enough for a sensor node or a Uno prototype without hogging bench space. Contacts grip 0.6 mm leads and stack side by side via the dovetail slots.",
+    "specs": [
+      {
+        "label": "Tie points",
+        "value": "400"
+      },
+      {
+        "label": "Rails",
+        "value": "1 pair"
+      },
+      {
+        "label": "Pitch",
+        "value": "2.54 mm"
+      },
+      {
+        "label": "Size",
+        "value": "82 × 55 mm"
+      }
+    ],
+    "image_url": "/images/products/mini-breadboard-400.jpg",
+    "stock_status": "In Stock",
+    "featured": false,
+    "rating": 4.5,
+    "created_date": "2026-08-30"
+  },
+  {
+    "id": "capacitor-kit",
+    "name": "Capacitor Assortment Kit (40 values)",
+    "sku": "DIY-CMP-005",
+    "price": 45,
+    "category": "Components",
+    "short_description": "Electrolytic, ceramic, and film caps in a labelled box — decoupling in a pinch.",
+    "description": "The caps you actually reach for: 10 µF bulk electrolytics down to 10 pF ceramics, plus a handful of film caps for filters. Common values in a compartment box with a printed chart.",
+    "specs": [
+      {
+        "label": "Count",
+        "value": "≈400 pieces"
+      },
+      {
+        "label": "Types",
+        "value": "Electrolytic · ceramic · film"
+      },
+      {
+        "label": "Range",
+        "value": "10 pF – 1000 µF"
+      },
+      {
+        "label": "Voltage",
+        "value": "16 – 50 V"
+      }
+    ],
+    "image_url": "/images/products/capacitor-assortment.jpg",
+    "stock_status": "In Stock",
+    "featured": false,
+    "rating": 4.6,
+    "created_date": "2026-08-29"
+  },
+  {
+    "id": "mq2",
+    "name": "MQ-2 Gas & Smoke Sensor",
+    "sku": "DIY-SEN-009",
+    "price": 45,
+    "category": "Sensors",
+    "short_description": "Detects LPG, smoke, hydrogen, and alcohol — the classic hazard sensor.",
+    "description": "Tin-dioxide sensing element with an on-board load resistor, presenting an analog voltage that rises with gas concentration. Warm-up takes a minute, then it covers the gases every first-year alarm project needs.",
+    "specs": [
+      {
+        "label": "Gases",
+        "value": "LPG · smoke · H₂ · alcohol"
+      },
+      {
+        "label": "Interface",
+        "value": "Analog + digital"
+      },
+      {
+        "label": "Voltage",
+        "value": "5 V"
+      },
+      {
+        "label": "Warm-up",
+        "value": "≤ 20 s"
+      }
+    ],
+    "image_url": "/images/products/mq2-gas-sensor.jpg",
+    "stock_status": "In Stock",
+    "featured": false,
+    "rating": 4.4,
+    "created_date": "2026-08-27"
+  },
+  {
+    "id": "piezo-buzzer",
+    "name": "Piezo Buzzer (active)",
+    "sku": "DIY-CMP-007",
+    "price": 15,
+    "category": "Components",
+    "short_description": "Pre-wired 5 V buzzer — one pin to a GPIO and you have sound.",
+    "description": "Active buzzer with an internal oscillator: drive it high and it beeps. Mounting ears and leads make it easy to bolt onto a chassis for alarms, score counters, and 'work finished' pings.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Active (internal osc.)"
+      },
+      {
+        "label": "Voltage",
+        "value": "3 – 5 V"
+      },
+      {
+        "label": "Current",
+        "value": "≈30 mA"
+      },
+      {
+        "label": "Sound",
+        "value": "≈85 dB @ 10 cm"
+      }
+    ],
+    "image_url": "/images/products/piezo-buzzer.jpg",
+    "stock_status": "In Stock",
+    "featured": false,
+    "rating": 4.5,
+    "created_date": "2026-08-26"
+  },
+  {
+    "id": "ldr",
+    "name": "LDR Photoresistor (5528)",
+    "sku": "DIY-SEN-010",
+    "price": 6,
+    "category": "Sensors",
+    "short_description": "Light-dependent resistor — night lights and line counters start here.",
+    "description": "Cadmium-sulphide photoresistor whose resistance drops from megohms in darkness to a few hundred ohms in bright light. Pair it with a 10 kΩ resistor as a divider and any ADC pin can read ambient light.",
+    "specs": [
+      {
+        "label": "Resistance",
+        "value": "1 MΩ dark – 10 kΩ light"
+      },
+      {
+        "label": "Peak",
+        "value": "540 nm"
+      },
+      {
+        "label": "Response",
+        "value": "30 – 100 ms"
+      },
+      {
+        "label": "Size",
+        "value": "5 mm"
+      }
+    ],
+    "image_url": "/images/products/ldr-sensor.jpg",
+    "stock_status": "In Stock",
+    "featured": false,
+    "rating": 4.6,
+    "created_date": "2026-08-25"
+  },
+  {
+    "id": "mcp3008",
+    "name": "MCP3008 8-Channel ADC",
+    "sku": "DIY-CMP-008",
+    "price": 35,
+    "category": "Components",
+    "short_description": "SPI 10-bit ADC — gives your ESP32 or Pi eight real analog inputs.",
+    "description": "Eight single-ended (or four differential) 10-bit channels over plain SPI. The fix for chips missing analog pins — read eight LDRs, potentiometers, or battery taps at up to 200 ksps.",
+    "specs": [
+      {
+        "label": "Channels",
+        "value": "8 single-ended"
+      },
+      {
+        "label": "Resolution",
+        "value": "10-bit"
+      },
+      {
+        "label": "Interface",
+        "value": "SPI"
+      },
+      {
+        "label": "Package",
+        "value": "DIP-16"
+      }
+    ],
+    "image_url": "/images/products/mcp3008-adc.jpg",
+    "stock_status": "In Stock",
+    "featured": false,
+    "rating": 4.7,
+    "created_date": "2026-08-24"
+  },
+  {
+    "id": "atx-psu",
+    "name": "ATX Power Supply 500W",
+    "sku": "DIY-TLS-003",
+    "price": 120,
+    "category": "Tools",
+    "short_description": "PC power supply reborn as a bench PSU — 3.3/5/12 V with leads.",
+    "description": "A workshop ATX supply: 12 V for motors and LED strips, 5 V for logic, 3.3 V for sensors. Green-wire trick to switch it on; ends are pre-terminated with molex and SATA leads.",
+    "specs": [
+      {
+        "label": "Output",
+        "value": "3.3 / 5 / 12 V"
+      },
+      {
+        "label": "Wattage",
+        "value": "500 W"
+      },
+      {
+        "label": "Connectors",
+        "value": "Molex · SATA · 24-pin"
+      },
+      {
+        "label": "Cooling",
+        "value": "80 mm fan"
+      }
+    ],
+    "image_url": "/images/products/atx-power-supply.jpg",
+    "stock_status": "Low Stock",
+    "featured": false,
+    "rating": 4.5,
+    "created_date": "2026-08-23"
+  },
+  {
+    "id": "tmp36",
+    "name": "TMP36 Temperature Sensor",
+    "sku": "DIY-SEN-011",
+    "price": 12,
+    "category": "Sensors",
+    "short_description": "Analog ±2 °C temperature probe with a linear 10 mV/°C output.",
+    "description": "Low-voltage precision centigrade sensor that reads −40 to +125 °C with no external parts. Output is 500 mV at 25 °C plus 10 mV per degree — one ADC pin and a two-line conversion gives you Celsius.",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "−40 – +125 °C"
+      },
+      {
+        "label": "Accuracy",
+        "value": "±2 °C @ 25 °C"
+      },
+      {
+        "label": "Output",
+        "value": "10 mV/°C"
+      },
+      {
+        "label": "Package",
+        "value": "TO-92"
+      }
+    ],
+    "image_url": "/images/products/tmp36-temperature-sensor.jpg",
+    "stock_status": "In Stock",
+    "featured": false,
+    "rating": 4.6,
+    "created_date": "2026-08-22"
+  },
+  {
+    "id": "ttp223",
+    "name": "TTP223 Touch Sensor Module",
+    "sku": "DIY-SEN-012",
+    "price": 12,
+    "category": "Sensors",
+    "short_description": "Capacitive touch pad that replaces mechanical buttons anywhere.",
+    "description": "The blue pad IS the switch — touch through plastic, wood, or glass. Active-high or active-low via solder jumper, with optional hold and toggle modes. Perfect for hidden switches and sealed enclosures.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Capacitive touch"
+      },
+      {
+        "label": "Voltage",
+        "value": "2 – 5.5 V"
+      },
+      {
+        "label": "Modes",
+        "value": "Momentary / toggle"
+      },
+      {
+        "label": "Output",
+        "value": "Digital"
+      }
+    ],
+    "image_url": "/images/products/ttp223-touch-sensor.jpg",
+    "stock_status": "In Stock",
+    "featured": false,
+    "rating": 4.5,
+    "created_date": "2026-08-21"
+  },
+  {
+    "id": "led-red-5mm",
+    "name": "Red 5mm LEDs (10 pcs)",
+    "sku": "DIY-CMP-009",
+    "price": 10,
+    "category": "Components",
+    "short_description": "The standard diffused red LED — first part in every blink sketch.",
+    "description": "Ten classic 5 mm diffused red LEDs, 20 mA forward current, ~2.0 V forward voltage. Grab a 220 Ω resistor and you're blinking in under a minute. Bulk-bagged so the spares stay in the kit.",
+    "specs": [
+      {
+        "label": "Count",
+        "value": "10 pieces"
+      },
+      {
+        "label": "Colour",
+        "value": "Red, diffused"
+      },
+      {
+        "label": "Forward V",
+        "value": "2.0 V @ 20 mA"
+      },
+      {
+        "label": "Size",
+        "value": "5 mm"
+      }
+    ],
+    "image_url": "/images/products/red-led-5mm.jpg",
+    "stock_status": "In Stock",
+    "featured": false,
+    "rating": 4.7,
+    "created_date": "2026-08-20"
+  },
+  {
+    "id": "color-sensor",
+    "name": "TCS3200 Colour Sensor Module",
+    "sku": "DIY-SEN-013",
+    "price": 55,
+    "category": "Sensors",
+    "short_description": "Reads colour with onboard white LEDs — sorters, line trackers, and badges.",
+    "description": "Photodiode array with a programmable colour filter, lit by four white LEDs so results don't depend on room light. Square-wave output frequency scales with colour — count pulses on any digital pin.",
+    "specs": [
+      {
+        "label": "Interface",
+        "value": "Digital (frequency)"
+      },
+      {
+        "label": "Lighting",
+        "value": "4× white LEDs"
+      },
+      {
+        "label": "Range",
+        "value": "20 mm recommended"
+      },
+      {
+        "label": "Voltage",
+        "value": "2.7 – 5.5 V"
+      }
+    ],
+    "image_url": "/images/products/color-sensor-module.jpg",
+    "stock_status": "In Stock",
+    "featured": false,
+    "rating": 4.4,
+    "created_date": "2026-08-19"
+  },
+  {
+    "id": "mlx90614",
+    "name": "MLX90614 IR Temperature Sensor",
+    "sku": "DIY-SEN-014",
+    "price": 135,
+    "category": "Sensors",
+    "short_description": "Non-contact infrared thermometer on I²C — measure anything, touch nothing.",
+    "description": "Measures object temperature from −70 to +380 °C by reading its infrared emission, no contact required. Factory-calibrated, talks I²C, and both board variants in our stock present the same SMBus interface.",
+    "specs": [
+      {
+        "label": "Range",
+        "value": "−70 – +380 °C object"
+      },
+      {
+        "label": "Accuracy",
+        "value": "±0.5 °C (typical)"
+      },
+      {
+        "label": "Interface",
+        "value": "I²C / SMBus"
+      },
+      {
+        "label": "Voltage",
+        "value": "3.3 – 5 V"
+      }
+    ],
+    "image_url": "/images/products/mlx90614-ir-temperature.jpg",
+    "stock_status": "In Stock",
+    "featured": false,
+    "rating": 4.8,
+    "created_date": "2026-08-18"
+  },
+  {
+    "id": "elegoo-mega-kit",
+    "name": "ELEGOO Mega 2560 Starter Kit",
+    "sku": "DIY-KIT-005",
+    "price": 580,
+    "category": "Kits",
+    "short_description": "The most-complete Mega kit: 200+ parts, LCD, sensors, and printed tutorials.",
+    "description": "ELEGOO's flagship Mega bundle — MEGA 2560-compatible board, 1602 LCD, stepper + servo motors, RFID, RTC, breadboards, jumper wires, LEDs, resistors, and 35 project tutorials. The kit people graduate from 'borrowing'.",
+    "specs": [
+      {
+        "label": "Level",
+        "value": "Beginner"
+      },
+      {
+        "label": "Parts",
+        "value": "200+ pieces"
+      },
+      {
+        "label": "Projects",
+        "value": "35 tutorials"
+      },
+      {
+        "label": "Board",
+        "value": "MEGA 2560 compatible"
+      }
+    ],
+    "kit_contents": [
+      "MEGA 2560 compatible board + USB cable",
+      "1602 LCD + RTC module + RFID kit",
+      "SG90 servo + stepper motor + driver",
+      "Breadboards + jumper wires",
+      "LEDs, resistors, buttons, buzzer",
+      "Project tutorial book / QR links"
+    ],
+    "image_url": "/images/products/elegoo-mega-starter-kit.jpg",
+    "stock_status": "In Stock",
+    "featured": true,
+    "rating": 4.8,
+    "created_date": "2026-09-01"
+  },
+  {
+    "id": "arduino-starter-box",
+    "name": "Arduino Component Starter Box",
+    "sku": "DIY-KIT-006",
+    "price": 280,
+    "category": "Kits",
+    "short_description": "Clear-box bundle: Uno board, jumpers, LEDs, resistors — classroom pack.",
+    "description": "Everything for a first term in one clipped box: Uno-compatible board, coloured jumper leads, LED and resistor sets with a value chart on the lid, plus the small hardware students always borrow. Sized for one bench partner pair.",
+    "specs": [
+      {
+        "label": "Level",
+        "value": "Beginner"
+      },
+      {
+        "label": "Board",
+        "value": "Uno compatible"
+      },
+      {
+        "label": "Passives",
+        "value": "LED + resistor sets"
+      },
+      {
+        "label": "Storage",
+        "value": "Clip-lock box"
+      }
+    ],
+    "kit_contents": [
+      "Uno-compatible board",
+      "Jumper wire set (M-M / M-F)",
+      "LED assortment + resistor set",
+      "Value chart on lid",
+      "Bag of buttons, caps, and headers"
+    ],
+    "image_url": "/images/products/components-kit-box.jpg",
+    "stock_status": "In Stock",
+    "featured": false,
+    "rating": 4.5,
+    "created_date": "2026-08-17"
+  },
+  {
+    "id": "max30102",
+    "name": "MAX30102 Pulse & SpO₂ Sensor",
+    "sku": "DIY-SEN-015",
+    "price": 85,
+    "category": "Sensors",
+    "short_description": "Fingertip heart-rate and blood-oxygen module over I²C — wearables start here.",
+    "description": "Integrated pulse oximetry and heart-rate module with red and infrared LEDs plus a photodetector. Onboard optical cavity filters ambient light, and the digital output streams over I²C for easy hookup to any MCU.",
+    "specs": [
+      {
+        "label": "Measurements",
+        "value": "HR + SpO₂"
+      },
+      {
+        "label": "Interface",
+        "value": "I²C"
+      },
+      {
+        "label": "LEDs",
+        "value": "Red + infrared"
+      },
+      {
+        "label": "Voltage",
+        "value": "1.8 V + 3.3 V"
+      }
+    ],
+    "image_url": "/images/products/max30102-heart-rate-sensor.jpg",
+    "stock_status": "In Stock",
+    "featured": false,
+    "rating": 4.6,
+    "created_date": "2026-08-16"
+  },
+  {
+    "id": "arduino-opta",
+    "name": "Arduino Opta micro PLC",
+    "sku": "DIY-BRD-007",
+    "price": 1450,
+    "category": "Boards",
+    "short_description": "ESP32-S3 industrial micro PLC with Ethernet, digital I/O, and secure OTA.",
+    "description": "Arduino's DIN-rail micro PLC: dual-core ESP32-S3, Ethernet, four digital inputs and four relay outputs, plus RS-485. Programmable from the Arduino IDE or PLC IDE, with secure element and over-the-air updates — the bridge from breadboard prototypes to real control panels.",
+    "specs": [
+      {
+        "label": "MCU",
+        "value": "ESP32-S3 dual-core"
+      },
+      {
+        "label": "I/O",
+        "value": "4 DI + 4 relay outputs"
+      },
+      {
+        "label": "Network",
+        "value": "Ethernet + RS-485"
+      },
+      {
+        "label": "Mount",
+        "value": "DIN rail"
+      }
+    ],
+    "image_url": "/images/products/arduino-opta.jpg",
+    "stock_status": "In Stock",
+    "featured": false,
+    "rating": 4.7,
+    "created_date": "2026-08-15"
+  },
+  {
+    "id": "arduino-uno-r4",
+    "name": "Arduino Uno R4 WiFi",
+    "sku": "DIY-BRD-008",
+    "price": 420,
+    "category": "Boards",
+    "short_description": "Uno with a 32-bit RA4M1 core, 12×8 LED matrix, and built-in WiFi — the new classroom standard.",
+    "description": "Same shield-friendly Uno footprint, now with a 48 MHz Renesas RA4M1, 12-bit DAC, and an ESP32-S3 for WiFi and Bluetooth. The onboard 12×8 LED matrix gives students instant visual feedback without wiring anything extra.",
+    "specs": [
+      {
+        "label": "MCU",
+        "value": "Renesas RA4M1 @ 48 MHz"
+      },
+      {
+        "label": "Wireless",
+        "value": "WiFi + Bluetooth LE"
+      },
+      {
+        "label": "Display",
+        "value": "12×8 LED matrix"
+      },
+      {
+        "label": "Voltage",
+        "value": "5 V logic"
+      }
+    ],
+    "image_url": "/images/products/arduino-uno-r4.jpg",
+    "stock_status": "In Stock",
+    "featured": true,
+    "rating": 4.8,
+    "created_date": "2026-08-14"
+  }
+]

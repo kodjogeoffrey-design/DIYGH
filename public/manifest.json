@@ -1,0 +1,17 @@
+{
+  "name": "DIYGH Store",
+  "short_name": "DIYGH",
+  "description": "Arduino boards, sensors, motors and robotics kits for makers in Ghana.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#121212",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
